@@ -1,5 +1,5 @@
 [project]
-name = 'MerakiVPNStatus'
+name = 'MerakiSNMP'
 version = '1.0.01'
 description = 'CLI utility that retrireves the SNMP settings for one more Meraki Organizations and (optionally) SNMP settings for networks in given organizations.'
 readme = 'README.md'
@@ -9,18 +9,20 @@ authors = [
 ]
 
 keywords = [
-    'meraki', 'python', 'automation', 'dashboard-api', 'meraki-api' 
+    'meraki', 'python', 'automation', 'dashboard-api', 'meraki-api'
 ]
 
 license = {file = 'LICENSE.md'}
+
 dependencies = [
     'meraki>=1.46.0',
     'tqdm>=4.66.4',
-    'click>=48.1.7'
+    'click>=8.1.7'
 ]
+
 classifiers = [
-  'Development Status :: 4 - Beta',
-  'Programming Language :: Python'
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
 ]
 
 [project.optional-dependencies]
@@ -41,4 +43,4 @@ build-backend = 'setuptools.build_meta'
 packages = ['merakisnmp', 'merakisnmp.async_code']
 
 [project.scripts]
-merakisnmp = 'merakisnmp.cli:snmp_settings'
+merakisnmp = "merakisnmp.cli:snmp_settings"
