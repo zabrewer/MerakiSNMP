@@ -5,7 +5,11 @@ MerakiSNMP
 
 # Introduction
 
-MerakiSNMP will retrieve SNMP settings from one or more Meraki organizations and/or the individual network SNMP settings for the same organizations. Meraki dashboard has different SNMP MIBS that are supported at the organization level and other SNMP MIBS at the network level so org-level and network-level SNMP settins are seperate from one another.  See this meraki KB article for details: 
+MerakiSNMP will retrieve SNMP settings from one or more Meraki organizations and/or the individual network SNMP settings for the same organizations. 
+
+Meraki dashboard has different SNMP MIBS that are supported at the organization level and other SNMP MIBS at the network level so org-level and network-level SNMP settings are seperate from one another.  
+
+See this meraki KB article for details: 
 
 https://documentation.meraki.com/General_Administration/Monitoring_and_Reporting/SNMP_Overview_and_Configuration
 
@@ -118,4 +122,10 @@ merakisnmp -n all-orgs -bf myorg
 ```
 merakisnmp orgs-file -of orgfile.csv -cf test
 ```
+## Changelog
 
+[Changelog](CHANGELOG.txt)
+
+## License
+
+[License](LICENSE)
