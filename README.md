@@ -124,8 +124,8 @@ merakisnmp orgs-file -of orgfile.csv -cf test
 ```
 ## Changelog
 
-[Changelog](CHANGELOG.txt)
+[Changelog](CHANGELOG.md)
 
 ## License
 
-[License](LICENSE)
+[License](LICENSE.md)
